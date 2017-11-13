@@ -11,7 +11,7 @@ function setCart(c) {
 
 function addToCart(item) {
  var itemName = `${item}`
- var itemPrice = Math.random(1, 100)
+ var itemPrice = parse.Int(Math.random(1, 100))
  var x = {itemName: itemPrice}
  return x
 }
